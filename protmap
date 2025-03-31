@@ -42,6 +42,7 @@ sub prompt {
     --prot <file>    protein fasta sequences in the FASTA format; required
     --dna <file>     genomic DNA sequences in the FASTA format; required
     --mppara <str>   miniprot mapping parameters ($mp_para);
+                     if a family of genes are expected, "--outs=0.8 --gff-only" could be used
     --prefix <str>   prefix for output ($prefix)
     --match <int>    minimum match in amino acid ($min_match)
     --identity <int> minimum identity in percentage ($min_identity)
