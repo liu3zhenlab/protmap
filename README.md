@@ -31,8 +31,8 @@ alnmatch | ratio of the matched amino acid length to the alignment amino acid le
 protmatch | ratio of the matched amino acid length to the protein length
 
 ### Algorithm
-Step 1: miniprot to map proteins to the reference and generate a GFF file  
-Step 2: filter miniprot ouptuts  
+Step 1: Run miniprot to map proteins to the reference and generate a GFF file  
+Step 2: Filter miniprot alignments to identify an mRNA hit from a locus aligned with the protein showing the best match if multiple proteins are aligned to the locus  
 1. Extract mRNA entries in the GFF input  
 2. Group mRNA hits if the regions of mRNAs overlap  
 3. For mRNAs in each group, perform pairwise comparisons to see if CDS overlaps significantly. Two mRNA overlaps if the overlapping regions consist of a high ratio (>=50%) of the total CDS length to either mRNA.  
