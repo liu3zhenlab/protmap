@@ -1,5 +1,5 @@
 # protmap
-To map proteins to genomic DNA sequences using miniprot
+To map proteins to genomic DNA sequences using miniprot and identify a "best-matched" protein to each mapping locus
 
 ### Dependency
 [miniprot](https://github.com/lh3/miniprot.git) must be installed and accessible in the system’s environment PATH.
